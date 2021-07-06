@@ -1,0 +1,307 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap");
+
+.navbar-top {
+  background-color: #ffff;
+  padding: 10px 10px 15px 10px;
+  width: 1100px;
+}
+
+.navbar-top a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+  font-size: 0.8em;
+}
+
+.menu {
+  width: 1100px;
+}
+
+.menu-wrapper .logo {
+  font-size: 2em;
+  margin-right: 120px;
+  background-color: transparent;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  background: none;
+  margin-right: 40px;
+}
+.menu select {
+  margin-right: 30px;
+}
+
+.demo {
+  background-color: #fa812d;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: black;
+}
+
+.row-2 {
+  display: grid;
+  width: 1200px;
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+}
+.row-2 .column {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.row-2 .column p {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.back {
+  background-color: #f7f9fc;
+}
+.second-section {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.second-section #head-text {
+  font-size: 48px;
+}
+.second-section #under-text {
+  font-size: 15px;
+}
+
+.banner {
+  background: url("../img/headerpic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
+  height: 700px;
+  box-shadow: inset 0 0 0 2000px rgba(3, 16, 34, 0.3);
+}
+.banner .row {
+  width: 1400px;
+}
+.banner h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  color: white;
+  line-height: 60px;
+  font-weight: 400;
+}
+.banner .col p {
+  color: white;
+}
+.banner .kennis {
+  margin-right: 250px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.banner .aanvraag {
+  margin-top: 100px;
+}
+.banner #titel-2 {
+  padding-left: 50px;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner .aanvraag-content p {
+  padding-left: 50px;
+}
+.aanvraag-content #top-text {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+}
+.aanvraag-content #bottom-text {
+  font-size: 16px;
+  color: #fa812d;
+  font-weight: 400;
+}
+.banner button {
+  background-color: #fa812d;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: black;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.aanvraag-content {
+  background-color: white;
+  background-image: url(../img/heropic.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-bottom: 50px;
+}
+
+.row-3 {
+  display: grid;
+  width: 1125px;
+  padding-bottom: 200px;
+}
+
+.row-3 .column {
+  grid-column: auto;
+  grid-row: 1;
+  column-gap: 20px;
+  background-color: #f7f9fc;
+  width: 350px;
+  padding-bottom: 50px;
+}
+.row-3 .column img {
+  width: 350px;
+}
+.row-3 .column .top-text {
+  font-size: 24px;
+  text-align: left;
+  width: 300px;
+  padding-top: 30px;
+}
+.row-3 .column .bottom-text {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  width: 300px;
+}
+.row-3 .column button {
+  color: #004faa;
+  background-color: #f7f9fc;
+  border: 2px #004faa;
+  border-style: solid;
+  padding: 7px 20px 7px 20px;
+  border-radius: 30px;
+  margin-top: -10px;
+  margin-left: 25px;
+  width: 230px;
+}
+
+.row-4 {
+  display: grid;
+  width: 1100px;
+  margin-bottom: 100px;
+}
+.row-4 .column-1 {
+  grid-row: 1;
+  width: 500px;
+}
+.row-4 .column-2 {
+  grid-row: 1;
+}
+.row-4 .column-1 .top-text {
+  font-size: 48px;
+  line-height: 50px;
+}
+.row-4 .column-1 .bottom-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+.row-4 .column-1 button {
+  color: #004faa;
+  background-color: #f7f9fc;
+  border: 2px #004faa;
+  border-style: solid;
+  padding: 7px 20px 7px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.row-4 .column-2 .pic-1 {
+  margin-top: -100px;
+}
+.row-4 .column-2 .pic-2 {
+  margin-top: -270px;
+  margin-left: 200px;
+}
+
+.row-5 {
+  width: 1100px;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border: 1px 0px 1px 0px solid rgba(189, 215, 255, 0.171);
+}
+.row-5 p {
+  font-size: 25px;
+  margin-right: 850px;
+}
+.row-5 button {
+  background-color: #fa812d;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: white;
+}
+.row-6 {
+  width: 1100px;
+  flex-direction: row;
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.row-6 p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.row-6 .column-1 {
+  width: 25%;
+}
+.row-6 #top {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.row-6 .column-2 {
+  width: 25%;
+}
+.row-6 .column-3 {
+  width: 25%;
+}
+.row-6 .column-4 {
+  width: 25%;
+}
+.row-6 .column-4 .icon {
+  width: 40px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+footer {
+  display: grid;
+}
+.row-7 {
+  display: flex;
+  width: 1100px;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border: 1px 0px 1px 0px solid rgba(154, 169, 192, 0.171);
+}
+.row-7 p {
+  padding: 10px;
+}
+
+.row-7 #text-3 {
+  margin-right: 450px;
+}
